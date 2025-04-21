@@ -1,16 +1,21 @@
 
-public class Criatura {
+public abstract class Criatura {
 
     private String nome;
-    private int vida;
+    private int vida, vidaMaxima;
 
     public Criatura(String nome, int vida) {
         this.nome = nome;
         this.vida = vida;
+        this.vidaMaxima = vida;
     }
 
     public String getNome() {
         return nome;
+    }
+
+    public void curarVida() {
+        this.vida = vidaMaxima;
     }
     
     public abstract void fraseDeApresentacao();
@@ -32,6 +37,10 @@ public class Criatura {
     public void mostraVida(){
         System.out.println(this.nome + " tem " +  
                            this.vida + " de vida!");
+    }
+
+    public int getVida() {
+        return vida;
     }
     
 }
