@@ -1,7 +1,7 @@
-public class InimigoMichely extends Inimigo {
+public class InimigoVladmir extends Inimigo {
 
-    public InimigoMichely() {
-        super("Michely", 350, 40, new Bloqueio(10) );
+    public InimigoVladmir() {
+        super("Vladmir", 500, 60, new Bloqueio(15) );
     }
     @Override
     public void fraseDeApresentacao() {

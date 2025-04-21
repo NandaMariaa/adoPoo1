@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-
-
 public class Jogador extends Criatura {
 
     private int ataqueForte = 120;
