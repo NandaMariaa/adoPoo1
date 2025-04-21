@@ -3,7 +3,7 @@ public class Teste {
     public static void main(String[] args) {
         
         Criatura jogador = new Jogador("Luiz",600);
-        Criatura inimigo = new Terrivel();
+        Criatura inimigo = new InimigoShaco();
         
         System.out.println("Bem vindos a grande batalha!");
         jogador.fraseDeApresentacao();

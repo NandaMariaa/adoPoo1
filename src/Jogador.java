@@ -5,8 +5,8 @@ public class Jogador extends Criatura {
     private int ataqueForte = 120;
     private int ataqueFraco = 40;
     private int risco = 50;
-    private Arma[] armas = new Arma[]{ new Faca(), 
-                                       new ArcoEFlecha(),
+    private Arma[] armas = new Arma[]{ new Lamina(), 
+                                       new Shuriken(),
                                        new Pistola(),
                                        new Espada()      };
     
